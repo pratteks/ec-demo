@@ -1,0 +1,97 @@
+{
+  "templates": [
+    {
+      "name": "att-business-homepage",
+      "urls": ["https://www.business.att.com/"],
+      "description": "AT&T Business homepage template with hero banners, product cards, value propositions, industry solutions, and sales contact section",
+      "blocks": [
+        {
+          "name": "section-hero-top",
+          "instances": ["div.hero.aem-GridColumn:first-of-type"],
+          "section": "light"
+        },
+        {
+          "name": "hero-banner",
+          "instances": ["div.hero.aem-GridColumn:first-of-type .hero-panel"]
+        },
+        {
+          "name": "section-product-cards",
+          "instances": ["div.multi-tile-cards"],
+          "section": "light"
+        },
+        {
+          "name": "cards-product",
+          "instances": ["div.multi-tile-cards .multi-tile-main"]
+        },
+        {
+          "name": "section-promo-cards",
+          "instances": ["div.card-grid.aem-GridColumn"],
+          "section": "light"
+        },
+        {
+          "name": "cards-promo",
+          "instances": ["div.card-grid .card-item"]
+        },
+        {
+          "name": "section-cybersecurity",
+          "instances": ["div.hero.aem-GridColumn:nth-of-type(2)"],
+          "section": "dark"
+        },
+        {
+          "name": "hero-product",
+          "instances": ["div.hero.aem-GridColumn:nth-of-type(2) .hero-panel"]
+        },
+        {
+          "name": "section-value-props",
+          "instances": ["div.multi-cta.aem-GridColumn"],
+          "section": "highlight"
+        },
+        {
+          "name": "columns-value",
+          "instances": ["div.multi-cta .cta-container"]
+        },
+        {
+          "name": "section-switch-offer",
+          "instances": ["div.hero.aem-GridColumn:nth-of-type(3)"],
+          "section": "light"
+        },
+        {
+          "name": "columns-offer",
+          "instances": ["div.hero.aem-GridColumn:nth-of-type(3) .hero-panel"]
+        },
+        {
+          "name": "section-industry",
+          "instances": ["div.story-stack.aem-GridColumn"],
+          "section": "light"
+        },
+        {
+          "name": "cards-industry",
+          "instances": ["div.story-stack .story-stack-items"]
+        },
+        {
+          "name": "section-guarantee",
+          "instances": ["div.hero.aem-GridColumn:nth-of-type(4)"],
+          "section": "dark"
+        },
+        {
+          "name": "hero-guarantee",
+          "instances": ["div.hero.aem-GridColumn:nth-of-type(4) .hero-panel"]
+        },
+        {
+          "name": "section-success-stories",
+          "instances": ["div.hero.aem-GridColumn:nth-of-type(5)"],
+          "section": "light"
+        },
+        {
+          "name": "hero-simple",
+          "instances": ["div.hero.aem-GridColumn:nth-of-type(5) .hero-panel"]
+        },
+        {
+          "name": "section-sales-contact",
+          "instances": ["div.rai-form.aem-GridColumn"],
+          "section": "highlight"
+        }
+      ]
+    }
+  ]
+}

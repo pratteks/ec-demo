@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-product",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-11T09:32:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.business.att.com/",
+    "originPage": "AT&T Business homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "standard",
+    "purpose": "product-category",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + price + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product category grids",
+      "service offering cards with pricing",
+      "feature cards with images and CTAs"
+    ],
+    "notSuitableFor": [
+      "promotional offer cards",
+      "industry/sector cards",
+      "cards without images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-11T09:32:00.000Z"
+  }
+}

@@ -1,0 +1,47 @@
+.hero-guarantee-container .hero-guarantee-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-guarantee {
+  position: relative;
+  padding: 40px 24px;
+  min-height: 300px;
+}
+
+.hero-guarantee h1,
+.hero-guarantee h2,
+.hero-guarantee h3,
+.hero-guarantee h4,
+.hero-guarantee h5,
+.hero-guarantee h6,
+.hero-guarantee p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--background-color);
+}
+
+.hero-guarantee.no-image * {
+  color: var(--text-color);
+}
+
+.hero-guarantee picture {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.hero-guarantee img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (width >= 900px) {
+  .hero-guarantee {
+    padding: 40px 32px;
+  }
+}

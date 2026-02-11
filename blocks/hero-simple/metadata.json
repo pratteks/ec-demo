@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-simple",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-02-11T09:32:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.business.att.com/",
+    "originPage": "AT&T Business homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "simple-cta",
+    "imagePattern": "side-image"
+  },
+  "contentPattern": {
+    "structure": "heading + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "simple call-to-action sections",
+      "customer stories teasers",
+      "light background heroes with minimal content"
+    ],
+    "notSuitableFor": [
+      "complex heroes with multiple CTAs",
+      "dark themed sections",
+      "heroes with detailed body text"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-11T09:32:00.000Z"
+  }
+}

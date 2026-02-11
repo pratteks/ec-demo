@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-industry",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-11T09:32:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.business.att.com/",
+    "originPage": "AT&T Business homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "industry-solutions",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + icon + heading + description",
+    "buttonCount": 0,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "industry or sector showcase cards",
+      "business solution category cards",
+      "cards with icons and background images"
+    ],
+    "notSuitableFor": [
+      "product pricing cards",
+      "promotional offer cards",
+      "simple feature cards without icons"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-11T09:32:00.000Z"
+  }
+}
